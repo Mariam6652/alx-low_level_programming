@@ -11,12 +11,12 @@
  */
 int main(void)
 {
-        int dg;
+	int dg;
 
-        for (dg = '0' ; dg < '10' ; dg++)
-        {
-                putchar(dg);
-        }
-                putchar('\n');
-        return (0);
+	for (dg = '0' ; dg < '10' ; dg++)
+	{
+		putchar(dg);
+	}
+	putchar('\n');
+	return (0);
 }
