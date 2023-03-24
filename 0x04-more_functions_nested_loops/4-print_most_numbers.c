@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void print_most_numbers
+void print_most_numbers(void)
 {
 	int i;
 
@@ -16,5 +16,5 @@ void print_most_numbers
 			_putchar(i);
 		}
 	}
+	_putchar('\n');
 }
-		
