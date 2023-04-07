@@ -11,3 +11,4 @@ void _puts_recursion(char *s);
 int is_palindrome(char *s);
 int _compare(char *s, int n1, int n2);
 int _strlen(char *s);
+int wildcmp(char *s1, char *s2);
