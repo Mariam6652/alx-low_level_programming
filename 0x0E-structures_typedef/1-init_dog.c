@@ -7,6 +7,7 @@
  * @owner: owner  of dog
  * @age: age of dog
  * @d: the structure
+ * Return: void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
