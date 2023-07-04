@@ -3,7 +3,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * struct list_s - are singly linked lists
+ * @str: string - (it is a malloced string)
+ * @len: it gives the length of the string
+ * @next: it points to the next current node
+ *
+ * Description: Singly Linked List Node Structure
+ * Holberton project
+ */
 typedef struct list_s
 {
 	char *str;
